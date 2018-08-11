@@ -1,0 +1,82 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.navbar {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 20px;
+}
+
+.navbar-nav > li{
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.content {
+  position: relative;
+  z-index: 100;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -100;
+  background-color: #B0DBDC;
+  background-image: url('../media/fall2018-rush-design.png');
+  background-size: 70% auto;
+}
+
+#triangle-bottomright {
+	width: 0;
+	height: 0;
+	border-bottom: 100vh solid white;
+	border-left: 100vw solid transparent;
+}
+
+#triangle-topright {
+	width: 0;
+	height: 0;
+	border-top: 100vh solid white;
+	border-left: 100vw solid transparent;
+}
+
+#triangle-bottomleft {
+	width: 0;
+	height: 0;
+	border-bottom: 100vh solid white;
+	border-right: 100vw solid transparent;
+}
+
+#triangle-topleft {
+	width: 0;
+	height: 0;
+	border-top: 100vh solid white;
+	border-right: 100vw solid transparent;
+}
+
+#one {
+  width: 100vw;
+  height: 100vh;
+  position: static;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#two {
+  width: 100vw;
+  height: 100vh;
+}
+
+#three {
+  width: 100vw;
+  height: 100vh;
+}
+
+#four {
+  width: 100vw;
+  height: 100vh;
+}
