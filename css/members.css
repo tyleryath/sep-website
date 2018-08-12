@@ -6,7 +6,7 @@ body {
 
 .navbar {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .navbar-nav > li{
@@ -19,6 +19,55 @@ body {
   z-index: 100;
 }
 
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 25vh;
+}
+
+.title-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 8vmin;
+  font-weight: bold;
+}
+
+.subtitle-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: #707070;
+  font-size: 2vmin;
+  font-weight: bold;
+}
+
+.full-screen-grid {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  width: 70%;
+  height: auto;
+}
+
+.member-tile {
+  width: 20vmin;
+  height: 20vmin;
+  background-color: grey;
+  margin: 10px;
+}
+
+.body-grid-container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+
 .background {
   position: absolute;
   top: 0;
@@ -27,6 +76,92 @@ body {
   background-color: #B0DBDC;
   background-image: url('../media/fall2018-rush-design.png');
   background-size: 70% auto;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  grid-column: 1 / 13;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 10vh;
+}
+
+.sponsored-by {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 40vh;
+  background-color: #E7E7E7;
+  padding: 5vmin;
+}
+
+#sponsored-title-container {
+  width: 100%;
+  height: 5.5vh;
+}
+
+#sponsors-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+}
+
+.sponsor-tile {
+  background-color: #A4CCCD;
+  width: 25vmin;
+  height: 25vmin;
+  margin: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: static;
+  width: 100%;
+  height: 45vh;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+.footer-column-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.social-media-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+}
+
+.social-media-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 70%;
+}
+
+.social-media-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  font-size: 6vmin;
+}
+
+.sep-copyright {
+
 }
 
 #triangle-bottomright {
