@@ -70,6 +70,57 @@ body {
   height: auto;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: rgba(176,219,220,0.85);
+  color: white;
+  font-size: 2.5vmin;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1vmin;
+}
+
+.member-tile:hover .overlay {
+  opacity: 1.0;
+}
+
+.member-name {
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #B0DBDC;
+    text-decoration: none;
+}
+
+.member-links {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.member-link {
+  padding-right: 1.5vmin;
+  color: white;
+}
+
 .body-grid-container {
   display: flex;
   flex: 1;
