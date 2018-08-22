@@ -51,38 +51,66 @@ body {
   font-weight: bold;
 }
 
-.full-screen-grid {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  width: 80%;
-  height: auto;
-  padding-top: 10vmin;
-}
-
-.venture-tile {
+.about-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  position: relative;
-  width: 18vmin;
-  height: 18vmin;
-  margin: 30px;
+  width: 100vw;
+  height: auto;
+  padding-top: 5vmin;
 }
 
-.venture-image {
+.about-text-container {
+  font-size: 2.5vmin;
+  text-align: center;
+  color: black;
+  width: 60%;
+  padding-top: 1vmin;
+  padding-bottom: 1vmin;
+}
+
+.nu-retreat-image-container {
+  padding-top: 5vmin;
+  padding-bottom: 5vmin;
+  padding-left: 10vmin;
+  padding-right: 10vmin;
+}
+
+.nu-retreat-image {
   width: 100%;
   height: auto;
 }
+
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.faq-title-container {
+  font-size: 8vmin;
+  text-align: left;
+  color: black;
+  width: 60%;
+  font-weight: bold;
+}
+
+.faq-text-container {
+  font-size: 2vmin;
+  text-align: left;
+  color: black;
+  width: 60%;
+  padding-top: 1vmin;
+  padding-bottom: 1vmin;
+}
+
 .body-grid-container {
   display: flex;
   flex: 1;
   justify-content: center;
-}
-
-#in-memory-of {
-  padding: 2vmin;
 }
 
 .background {

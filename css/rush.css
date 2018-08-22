@@ -51,30 +51,20 @@ body {
   font-weight: bold;
 }
 
-.full-screen-grid {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  width: 80%;
-  height: auto;
-  padding-top: 10vmin;
-}
-
-.venture-tile {
+.rush-container {
+  padding-top: 5vmin;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  position: relative;
-  width: 18vmin;
-  height: 18vmin;
-  margin: 30px;
-}
-
-.venture-image {
-  width: 100%;
+  width: 100vw;
   height: auto;
 }
+
+.rush-schedule {
+  width: 90%;
+  height: auto;
+}
+
 .body-grid-container {
   display: flex;
   flex: 1;
@@ -91,7 +81,6 @@ body {
   left: 0;
   z-index: -100;
   background-color: #DCB0C4;
-  background-image: url('../media/fall2018-rush-design.png');
   background-size: 70% auto;
 }
 

@@ -55,17 +55,23 @@ body {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  width: 90%;
+  width: 80%;
   height: auto;
+  padding-top: 10vmin;
 }
 
-.member-tile {
+.company-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  width: 20vmin;
-  margin: 10px;
+  width: 18vmin;
+  height: 18vmin;
+  margin: 30px;
 }
 
-.member-image {
+.company-image {
   width: 100%;
   height: auto;
 }
@@ -85,8 +91,7 @@ body {
   top: 0;
   left: 0;
   z-index: -100;
-  background-color: #B0DBDC;
-  background-image: url('../media/fall2018-rush-design.png');
+  background-color: #DCB0C4;
   background-size: 70% auto;
 }
 
