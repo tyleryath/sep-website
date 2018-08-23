@@ -131,6 +131,16 @@ a:hover {
   padding: 2vmin;
 }
 
+.justin-tile {
+  position: relative;
+  width: 30vmin;
+  margin: 10px;
+}
+
+.justin-tile:hover .overlay {
+  opacity: 1.0;
+}
+
 .background {
   position: absolute;
   top: 0;
