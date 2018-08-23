@@ -188,6 +188,8 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   font-size: 6vmin;
+  font-style: italic;
+  font-weight: bold;
 }
 
 a {

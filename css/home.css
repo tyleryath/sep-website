@@ -9,6 +9,24 @@ body {
   z-index: 100;
 }
 
+.tiny-arrow-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  height: 100%;
+  padding-bottom: 15vh;
+}
+
+.tiny-arrow {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 20px solid #004040;
+}
+
 .background {
   position: absolute;
   top: 0;
@@ -106,6 +124,10 @@ body {
   border: none;
   border-radius: 30px;
   padding: 0;
+}
+
+.btn-primary:hover {
+  background-color: #707070;
 }
 
 #super-sub-title {
@@ -300,11 +322,15 @@ body {
 }
 
 .member-image {
-  width: 75%;
+  width: 100%;
   height: auto;
 }
 
-#other-chapters-card {
+.rachael-text {
+  font-size: 2vmin;
+}
+
+.other-chapters-card {
   background-color: black;
   display: flex;
   flex: 1;
@@ -316,6 +342,8 @@ body {
   padding-right: 7vmin;
   padding-top: 7vmin;
   font-size: 2.5vmin;
+  width: 80%;
+  margin-bottom: 40vh;
 }
 
 .chapters {
@@ -325,6 +353,8 @@ body {
   flex-direction: column;
   color: white;
   font-size: 6vmin;
+  font-style: italic;
+  font-weight: bold;
 }
 
 .chapter-text-container {
@@ -338,6 +368,7 @@ body {
 .bottom-container {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   grid-column: 1 / 13;
   width: 100vw;
   height: 100vh;
@@ -425,6 +456,8 @@ body {
   flex-direction: row;
   justify-content: flex-start;
   font-size: 6vmin;
+  font-style: italic;
+  font-weight: bold;
 }
 
 a {
