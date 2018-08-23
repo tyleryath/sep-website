@@ -81,8 +81,9 @@ body {
   top: 0;
   left: 0;
   z-index: -100;
-  background-color: white;
-  background-size: 70% auto;
+  background-color: #fad762;
+  background-image: url('../media/entrepreneur.png');
+  background-size: 125% auto;
 }
 
 .bottom-container {

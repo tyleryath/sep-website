@@ -14,10 +14,9 @@ body {
   top: 0;
   left: 0;
   z-index: -100;
-  background-color: #fad762;
+  background-color: #B0DBDC;
   background-image: url('../media/entrepreneur.png');
-  background-repeat: repeat;
-  background-size: 20% auto;
+  background-size: 125% auto;
 }
 
 .navbar {
@@ -25,7 +24,7 @@ body {
   font-size: 16px;
 }
 
-.navbar-nav > li{
+.navbar-nav > li {
   margin-left: 3vw;
   margin-right: 3vw;
 }
@@ -98,7 +97,7 @@ body {
   padding-left: 5;
 }
 
-.btn {
+.btn-primary {
   font-size: 40px;
   width: 175px;
   height: 60px;
@@ -150,6 +149,7 @@ body {
   align-items: center;
   width: 100%;
   height: 5%;
+  font-weight: 300;
 }
 
 .left-card-layout {
@@ -170,32 +170,174 @@ body {
 
 #about-card {
   background-color: #E7E7E7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 7vmin;
+  padding-right: 7vmin;
+  font-size: 2.5vmin;
+}
+
+.nu-retreat-image {
+  width: 100%;
+  height: auto;
 }
 
 #ventures-card {
   background-color: #E7E7E7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 7vmin;
+  padding-right: 7vmin;
+  font-size: 2.5vmin;
+}
+
+.venture-title {
+  font-weight: 600;
+}
+
+.venture-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.venture-image {
+  width: 55%;
+  height: auto;
 }
 
 #careers-card {
-  background-color: black;
+  padding: 7vmin;
+  background-color: #E7E7E7;
+  display: flex;
+  flex-direction: column;
+  padding-left: 7vmin;
+  padding-right: 7vmin;
+  font-size: 2.5vmin;
+}
+
+.companies-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.company-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex: 3;
+  margin: 10px;
+}
+
+.company-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 25%;
+  height: 25%;
+}
+
+.company-image {
+  width: 100%;
+  height: auto;
+}
+
+#apple {
+  width: 80%;
 }
 
 #rush-card {
-  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fad762;
+  font-size: 2.5vmin;
+  padding: 7vmin;
+}
+
+.rush-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.rush-image {
+  width: 100%;
+  height: auto;
 }
 
 #members-card {
   background-color: #E7E7E7;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 7vmin;
+  padding-right: 7vmin;
+  font-size: 2.5vmin;
+}
+
+.member-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.member-image {
+  width: 75%;
+  height: auto;
 }
 
 #other-chapters-card {
   background-color: black;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 7vmin;
+  padding-right: 7vmin;
+  padding-top: 7vmin;
+  font-size: 2.5vmin;
+}
+
+.chapters {
+  padding-top: 5vmin;
+  display: flex;
+  flex: 6;
+  flex-direction: column;
+  color: white;
+  font-size: 6vmin;
+}
+
+.chapter-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex: 3;
+  color: white;
 }
 
 .bottom-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   grid-column: 1 / 13;
   width: 100vw;
   height: 100vh;
