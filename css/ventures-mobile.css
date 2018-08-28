@@ -28,7 +28,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 20vh;
   margin-top: 5vmin;
 }
@@ -58,7 +58,7 @@ body {
   flex-flow: row wrap;
   width: 80%;
   height: auto;
-  padding-top: 10vmin;
+  padding-top: 2vmin;
 }
 
 .venture-tile {
