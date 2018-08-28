@@ -36,9 +36,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  font-size: 12vmin;
+  font-size: 10vmin;
   font-weight: bold;
-  padding-top: 4vmin;
 }
 
 .subtitle-text {
@@ -53,7 +52,7 @@ body {
 }
 
 .rush-container {
-  padding-top: 5vmin;
+  padding-top: 2vmin;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +62,7 @@ body {
 }
 
 .rush-schedule {
-  width: 90%;
+  width: 100%;
   height: auto;
   padding: 2vmin;
 }
